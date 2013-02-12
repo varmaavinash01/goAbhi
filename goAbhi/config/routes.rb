@@ -1,13 +1,5 @@
 GoAbhi::Application.routes.draw do
-  get "trackers/new"
-
-  get "trackers/create"
-
-  get "trackers/update"
-
-  get "trackers/dit"
-
-  get "trackers/show"
+  resources :trackers
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
